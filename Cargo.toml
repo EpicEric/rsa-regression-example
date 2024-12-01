@@ -1,0 +1,10 @@
+[package]
+name = "rsa-regression-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pkcs1 = "0.7.5"
+pkcs8 = { version = "0.10.2", features = ["pkcs5", "encryption"] }
+rsa = "0.9.7"
+ssh-key = { version = "0.6.7", features = ["rsa", "encryption"] }
